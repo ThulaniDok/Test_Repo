@@ -9,6 +9,8 @@ function timeFormat() {
     
     console.log("Today is : " + days[day]);
     console.log("Current time is : " + hours + " PM : " + minutes + " : " +  seconds);
+    console.log("Hello");
 }
 
 timeFormat();
+
