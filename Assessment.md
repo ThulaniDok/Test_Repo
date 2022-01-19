@@ -4,23 +4,23 @@
 
 ### 1 - What questions would you ask to aid in your testing better?
 - Should a member confirm editing their details?
-- Can a contact or name be empty?
-- Can edited contact be of existing contact
+- Can a name or contact be updated with an empty value?
+- Can a user edit a contact to an existing contact?
 
 ### 2 - In your opinion, what are the three most important things that need to be tested and why?
-- User can only edit their details on login (security)
-- The user can successfully edit their details 
-- A message/email informing the user of updated details sent to their contact address
+- Can a use edit their details without login? This is for security reasons and making sure that wa user can only edit their details.
+- Can the user successfully edit their name and contact. This is the main requirement of the feature. 
+- Is a message/email informing the user of updated details sent to their contact address? This is to confirm and inform the user the their details have be changed in case their details were changed without their consent.
 
 ### 3 - Which layer would you focus your testing efforts on and why?
-- I would focus on the client/interface layer because it covers most levels of the system without duplicating effor
-- Integration between the microservices will be covered
-- Frontend and Backend validation will be covered
+- I would focus on the client/interface layer because it covers most levels of the system without duplicating effor.
+- It covers itntegration between the microservices will be covered
+- It also covers frontend and Backend validation will be covered
 
 ### 4 - What dependencies on other micro services could you see that may impact testing?
-- Dependency on the Get member microservice in order to edit a member you need to return the member
-- Email validation
-- Validation microservice 
+- Dependency on the Get member microservice. In order to edit a member you need to return the member frist.
+- Email validation to confirm the new email is valid.
+- Validation microservice to validate input details.
 
 ## Assignmnet 2 - SQL Comprehension
 
